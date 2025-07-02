@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form_ex</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="index.html" method="get" novalidate target="_blank">
+      <div>
+        <label for="search">Search</label>
+        <br /><br />
+        <input
+          id="search"
+          type="search"
+          autofocus
+          placeholder="Enter A Search Word"
+          name="Search"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="upload">Upload</label>
+        <br /><br />
+        <input id="upload" type="file" name="Upload" />
+      </div>
+      <br />
+      <div>
+        <label for="url">Url</label>
+        <br /><br />
+        <input id="url" type="url" required name="Url" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="birthdate" value="2005-02-28" />
+      </div>
+      <br />
+      <div>
+        <label for="month">Month</label>
+        <input type="month" id="month" name="month" value="2005-02" />
+      </div>
+      <br />
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Save" />
+    </form>
+
+    <div class="code-box">
+      <div class="code-title">HTML</div>
+      <pre><code>
+Hello Line One
+Hello Line Two
+Hello Line Three
+      Hello Line Four
+      </code></pre>
+    </div>
+
+    <div>
+      <iframe src="https://elzero.org/" height="400" frameborder="0"></iframe>
+    </div>
+  </body>
+</html>
